@@ -1,49 +1,55 @@
 .auth-container {
-    width: 300px;
+    width: 350px;
     margin: 50px auto;
-    background: #ffffffdd;
-    padding: 20px;
-    border-radius: 16px;
-    box-shadow: 0 0 10px #00000033;
-    transition: all 0.4s ease;
-    animation: fadeIn 1s ease;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
   }
   
-  .auth-container input {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form input {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
     border-radius: 8px;
-    border: 1px solid #ccc;
   }
   
-  .auth-container button {
-    width: 100%;
-    padding: 10px;
-    background: #1976d2;
+  .submit-btn {
+    padding: 12px;
+    background-color: #0077ff;
     color: white;
     border: none;
     border-radius: 8px;
+    font-size: 16px;
     cursor: pointer;
   }
   
-  .auth-container .switch-btn {
+  .submit-btn:hover {
+    background-color: #005fd8;
+  }
+  
+  .switch-btn {
     background: none;
-    color: #1976d2;
     border: none;
+    color: #0077ff;
     font-weight: bold;
-    margin-left: 5px;
     cursor: pointer;
+  }
+  
+  .oauth-buttons {
+    margin-top: 20px;
   }
   
   .profile img {
-    width: 80px;
+    width: 100px;
     border-radius: 50%;
-    margin-top: 10px;
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    margin-top: 15px;
   }
   
